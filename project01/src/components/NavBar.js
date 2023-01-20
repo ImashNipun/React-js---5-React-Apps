@@ -1,7 +1,12 @@
 import React from 'react';
+import logo from '../logo.svg'
 
 export default function NavBar(){
     return(
-        <h1 className="navbar">NavBar gose here!</h1>
+        <nav className="nav-container">
+            <img src={logo} alt="logo" width="100px"/>
+            <h3>ReactFacts</h3>
+            <h4 className="p-title">React - Project 1</h4>
+        </nav>
     );
 }
