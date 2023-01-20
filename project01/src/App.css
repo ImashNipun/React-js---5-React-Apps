@@ -6,6 +6,8 @@
 body{
   margin: 0;
   padding: 0;
+  background-color: #393939;
+ 
 }
 
 .nav-container{
@@ -25,5 +27,38 @@ body{
 .nav-container h4{
   color: #fff;
   font-size: 18px;
+  color: #8e8e8e;
 }
 
+.main-container{
+  color: #fff;
+  height: 85vh;
+  padding-top: 10vh;
+  background-image: url('./logo-large.svg');
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.content{
+  width: fit-content;
+  margin: auto;
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.title{
+  font-size: 60px;
+}
+
+ul{
+  line-height: 3rem;
+}
+
+ul li{
+  font-size: 1.4rem;
+}
+
+ul li::marker{
+  color: #61dafb;
+  font-size: 1.9rem;
+}

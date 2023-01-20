@@ -3,6 +3,7 @@ import React from 'react';
 export default function Main(){
     return(
         <div className='main-container'>
+            <div className='content'>
             <h1 className="title">Fun facts about React</h1>
             <ul>
                 <li>Was first released in 2013</li>
@@ -11,6 +12,7 @@ export default function Main(){
                 <li>Is maintained by Facebook</li>
                 <li>Powers thousands of enterprise apps, including mobile apps</li>
             </ul>
+            </div>
         </div> 
     );
 }
