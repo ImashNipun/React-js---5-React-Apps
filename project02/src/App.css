@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(37, 37, 37);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-container{
+    background-color: rgb(14, 14, 14);
+    width: 400px;
+    height: fit-content;
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    color: white;
+    border-radius: 20px;
+}
+
+.info-sec{
+    text-align: center;
+}
+
+.img{
+    height: 60vh;
+    background-image: url('./images/profile01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px 20px 0 0;
+}
+
+.info-sec h2,h6,button{
+    margin-top: 15px;
+}
+
+h5{
+    color: rgb(255, 196, 196);
+    font-weight: 400;
+}
+
+h6{
+    font-weight: 600;
+    letter-spacing: 0.12rem;
+}
+
+button{
+    width: 35%;
+    height: 38px;
+    border-radius: 7px;
+    border: 0;
+}
+
+button i{
+    margin-right: 8px;
+}
+
+.btn1{
+    margin-right: 17.5px;
+}
+
+.btn2{
+    background-color: blue;
+    margin-left: 17.5px;
+    color: white;
+}
+
+.about-sec, .i-sec{
+    margin-top: 15px;
+    padding: 20px 40px 0px 40px;
+}
+
+.about-sec h2, .i-sec h2{
+    font-size: larger;
+    margin-bottom: 7px;
+}
+
+p{
+    font-size: small;
+}
+
+footer{
+    height: 6vh;
+    border-radius: 0 0 20px 20px;
+    margin-top: 30px;
+    padding: 0 40px 0 40px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
