@@ -2,7 +2,7 @@ import React from 'react';
 import Card from './Card'
 
 
-export default function NavBar(){
+export default function Slider(){
     return(
         <div className="c-cont">
             <Card/>

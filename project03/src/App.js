@@ -7,8 +7,10 @@ function App() {
   return (
     <div className="App">
       <NavBar/>
+      <div className='all-cont'>
       <Hero/>
       <Slider/>
+      </div>
     </div>
   );
 }
