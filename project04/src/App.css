@@ -37,10 +37,18 @@ body{
     
 }
 
-.card-sec img{
-    height: 100%;
+.card-img{
+    /* height: 100%; */
     margin-right: 25px;
     border-radius: 10px;
+    flex: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-dec{
+    flex: 2;
 }
 
 .card-dec h1,h6,p{
