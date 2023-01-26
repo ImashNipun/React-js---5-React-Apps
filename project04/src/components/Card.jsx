@@ -6,11 +6,11 @@ export default function Card() {
       <img src="https://images.unsplash.com/photo-1586285640634-0d10d65e453e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80" alt="" />
       <div className="card-dec">
         <span>
-          <i class="fa-solid fa-location-dot"></i>
+          <i className="fa-solid fa-location-dot"></i>
         </span>
-        <span>Japan</span>
+        <span> Japan </span>
         <span>
-          <a href="#">View on Google Map</a>
+          <a href="#"> View on Google Map</a>
         </span>
         <h1 className="place">Mount Fuji</h1>
         <h6 className="duration">12-Jan-2021-24-Jan-2021</h6>

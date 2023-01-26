@@ -6,6 +6,7 @@ export default function Main(){
         <div className="main-sec">
             <Card/>
             <Card/>
+            <Card/>
         </div>
     )
 }
